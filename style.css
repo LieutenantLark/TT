@@ -1,0 +1,41 @@
+head,html,body{
+  background: #ffffff;
+  color: #4fc5ec;
+  font-family: 'Trebuchet MS';
+ 
+}
+
+
+
+input{
+  background: #8d8d8d;
+  color: #2c2c2c;
+  font-size: 120%;
+  border: #ffffff;
+  text-align: center;
+}
+
+.Message{
+  color: #333333;
+}
+
+#Main{
+  background: #ffffff;
+  text-align: center;
+
+}
+#Main2{
+  background: #ffffff;
+  display: none;
+}
+#Title{
+  font-size: 250%;
+  margin-top: 0px;
+  text-align: center;
+}
+head,body{
+  margin: 1px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}

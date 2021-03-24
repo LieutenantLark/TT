@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> TurboTalk </title>
+	<link rel="shortcut icon" href="./favicon.jpg" type="image/jpg">
+	<meta name="charset" charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js">
+	</script>
+	<script src="socket.io/socket.io.js">
+	</script>
+	<link rel="apple-touch-icon" href="./favicon.jpg" type="image/jpg">
+</head>
+
+<body onload="onload()">
+	<div id="Main">
+		<audio id="Ding" src="Ding.mp3"> </audio>
+		<h1 id="Title"> TurboTalk </h1>
+		<div id="AccessPort">
+
+			<input placeholder="Username" id = "NameInput" type = "text"style="text-align:center;">
+        <br><br>
+        <input placeholder="Room Name" id = "IDInput"  type = "text" style="text-align:center;">
+        <br><br>
+        <input id = "ConnectButton" class = "Button" type = "submit" value = "Connect" onclick = "Connect()">
+
+      </div>
+            <h2 id = "RoomID"> Chatroom : None </h2>
+      </div>
+
+      <div id="Main2">
+      <div id = "Chat">
+        <p id = "Message0" class = "Message">  </p>
+        <p id = "Message1" class = "Message">  </p>
+        <p id = "Message2" class = "Message">  </p>
+        <p id = "Message3" class = "Message">  </p>
+        <p id = "Message4" class = "Message">  </p>
+        <p id = "Message5" class = "Message">  </p>
+        <p id = "Message6" class = "Message">  </p>
+        <p id = "Message7" class = "Message">  </p>
+        <p id = "Message8" class = "Message">  </p>
+        <p id = "Message9" class = "Message">  </p>
+
+        <input style = "bottom: 0px; width: 295px;  height: 30px;position: fixed;"onclick="Send();" placeholder="Send a message!"id = "ComposedMessage" placeholder = "text">
+        <input style = "text-align: center; bottom: 0px; position: fixed;" id = "SendMessage" onclick="Send();" value = "Send" class = "Button" type = "submit">
+      </div>
+      <br><br>
+    </div>
+
+  </body>
+</html>

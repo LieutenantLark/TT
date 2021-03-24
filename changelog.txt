@@ -1,0 +1,5 @@
+3-23-21 : Project started!
+NOTABLE CHANGES:
+-Improved CSS and all associated styling.
+BUGS:
+-Messages crash application
